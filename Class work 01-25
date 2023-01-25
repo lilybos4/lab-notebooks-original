@@ -1,0 +1,14 @@
+number =eval(input('Please enter your age: '))
+
+if number>= 66:
+  print('You can get Medicaid')
+elif number>= 63:
+  print('You get Social Security')
+elif number>= 21:
+  print('You can drink!')
+elif number>= 16:
+  print('You can drive!')
+elif number>= 14:
+  print('High school!')
+else:
+  print("Enjoy being a kid:)")
